@@ -4,23 +4,23 @@ function getSumOfAnArray (numbers){
       const index = i;
       const element =  numbers[index];
       sum = sum + element ;
-      //   console.log(index,element,sum);
+     console.log(index,element,sum);
    }
    return sum;
- }
+//  }
 
- function getOddNumber(numbers){
-   const  oddNumbers= [];
-    for (let i= 0; i < index.length; i++){
-      const index =i;
-      const element = numbers[index];
-      if(element %2 !== 0){
-         console.log(index, element);
-         oddNumbers.push(element);
-      }
+//  function getOddNumber(numbers){
+//    const  oddNumber= [];
+//     for (let i= 0; i < index.length; i++){
+//       const index =i;
+//       const element = numbers[index];
+//       if(element %2 !== 0){
+//          console.log(index, element);
+//         oddNumber.push(element);
+//       }
 
-    }
- }
+//     }
+  }
  const myNumbers =[20,30 ,40, 56, 20 ,10];
- getOddNumber(myNumbers);
+//  getOddNumber(myNumbers);
  getSumOfAnArray(myNumbers);
